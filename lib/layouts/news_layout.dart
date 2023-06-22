@@ -2,15 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:news_app/shared/cubit/cubit.dart';
 import 'package:news_app/shared/cubit/states.dart';
-import 'package:news_app/shared/network/remote/dio_helper.dart';
 
 class NewsLayout extends StatelessWidget {
-  NewsLayout();
+  NewsLayout({super.key});
 
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (context) => AppCubit(),
+      create: (context) => AppCubit()..getBusinessData(),
       child: BlocConsumer<AppCubit, AppState>(
         listener: (context, state) {},
         builder: (context, state) {
@@ -18,13 +17,11 @@ class NewsLayout extends StatelessWidget {
           return Scaffold(
             appBar: AppBar(
               actions: [IconButton(onPressed: () {
-
-              }, icon: Icon(Icons.search))],
-              title: Text('News App'),
+              }, icon: const Icon(Icons.search))],
+              title: const Text('News App'),
             ),
             floatingActionButton: FloatingActionButton(
               onPressed: (){
-                cubit.getBusinessData();
               },
               child: Icon(Icons.add),
             ),

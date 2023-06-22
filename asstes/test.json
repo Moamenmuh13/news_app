@@ -1,136 +1,254 @@
 {
   "status": "ok",
-  "totalResults": 10,
+  "totalResults": 70,
   "articles": [
+
     {
       "source": {
-        "id": "techcrunch",
-        "name": "TechCrunch"
+        "id": "associated-press",
+        "name": "Associated Press"
       },
-      "author": "Devin Coldewey",
-      "title": "NASA hits up 7 space companies to take on orbital squad goals",
-      "description": "From space stations to human transport and robotics, NASA is tapping 7 space companies to look into the next decade of space tech.",
-      "url": "https://techcrunch.com/2023/06/16/nasa-hits-up-7-space-companies-to-take-on-orbital-squad-goals/",
-      "urlToImage": "https://techcrunch.com/wp-content/uploads/2023/06/sierra_space_ccsc2.jpg?resize=1200,675",
-      "publishedAt": "2023-06-16T18:59:52Z",
-      "content": "NASA has announced Space Act agreements with seven private space companies in the hopes of spurring tech developments the government may invest in down the line, from space stations to human transpor… [+2168 chars]"
+      "author": "Jonel Aleccia",
+      "title": "US approves chicken made from cultivated cells, the nation's first 'lab-grown' meat - The Associated Press",
+      "description": "For the first time, U.S. regulators on Wednesday approved the sale of chicken made from animal cells, allowing two California companies to offer “lab-grown” meat to the nation's restaurant tables and eventually, supermarket shelves.",
+      "url": "https://apnews.com/article/cultivated-meat-lab-grown-cell-based-a88ab8e0241712b501aa191cdbf6b39a",
+      "urlToImage": "https://storage.googleapis.com/afs-prod/media/aad5a87d83b74038a59d004abd9ed4b9/3000.webp",
+      "publishedAt": "2023-06-21T15:26:59Z",
+      "content": "For the first time, U.S. regulators on Wednesday approved the sale of chicken made from animal cells, allowing two California companies to offer lab-grown meat to the nations restaurant tables and ev… [+7134 chars]"
+    },
+    {
+      "source": {
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
+      },
+      "author": "Nick Timiraos",
+      "title": "Fed's Powell Says Interest-Rate Pause Is Expected to Be Temporary - The Wall Street Journal",
+      "description": "Central bank chairman delivers testimony to Congress on outlook for economy and banking system",
+      "url": "https://www.wsj.com/articles/feds-powell-says-interest-rate-pause-is-expected-to-be-temporary-576d1f64",
+      "urlToImage": "https://images.wsj.net/im-804004/social",
+      "publishedAt": "2023-06-21T15:18:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Watcher.guru"
+      },
+      "author": "Watcher Guru",
+      "title": "FED Chair Jerome Powell Sees Stablecoins \"as a Form of Money\" - Watcher Guru",
+      "description": null,
+      "url": "https://watcher.guru/news/fed-chair-jerome-powell-sees-stablecoins-as-a-form-of-money",
+      "urlToImage": null,
+      "publishedAt": "2023-06-21T15:09:57Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Above the Law"
+      },
+      "author": "Staci Zaretsky",
+      "title": "Vault 100 Rankings: The Most Prestigious Law Firms In America (2024) - Above the Law",
+      "description": "Money continues to matter most for Biglaw associates.",
+      "url": "https://abovethelaw.com/2023/06/vault-100-rankings-2024/",
+      "urlToImage": "https://abovethelaw.com/uploads/2014/11/money-cash-pile-of-money-benjamins.jpg",
+      "publishedAt": "2023-06-21T14:43:57Z",
+      "content": "What do associates at major law firms care about more than money? Prestige, of course. But, at the end of the day, sometimes being a leader when it comes to compensation is enough to boost a firm’s p… [+2986 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Investor's Business Daily"
+      },
+      "author": "Investor's Business Daily",
+      "title": "These Semiconductor Stocks Are 'The Four Horsemen Of AI' - Investor's Business Daily",
+      "description": null,
+      "url": "https://www.investors.com/news/technology/semiconductor-stocks-these-are-the-four-horsemen-of-ai/",
+      "urlToImage": null,
+      "publishedAt": "2023-06-21T14:41:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+      },
+      "author": "Makena Kelly",
+      "title": "FTC sues Amazon for tricking customers into signing up for Prime - The Verge",
+      "description": "The Federal Trade Commission is suing Amazon for enrolling customers in its Prime program without their consent and making it difficult for them to cancel their subscriptions.",
+      "url": "https://www.theverge.com/2023/6/21/23768372/ftc-amazon-lawsuit-prime-dark-patterns-subscriptions",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/gGXG4F_gdAUOH7ys60vQz873lYs=/0x0:2040x1360/1200x628/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/23935559/acastro_STK103__02.jpg",
+      "publishedAt": "2023-06-21T14:17:36Z",
+      "content": "FTC sues Amazon for tricking customers into signing up for Prime\r\nFTC sues Amazon for tricking customers into signing up for Prime\r\n / The complaint hinges on Amazons alleged use of dark patterns.\r\nB… [+2367 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Barron's"
+      },
+      "author": "Joe Woelfel, Angela Palumbo",
+      "title": "Peloton, Tesla, Winnebago, Dollar Tree, Intel, and More Stock Market Movers - Barron's",
+      "description": "Peloton stock is initiated at Underperform at Wolfe Research, Tesla CEO Elon Musk says the electric-vehicle maker will be expanding into India 'as soon as humanly possible,' and sales slump at Winnebago.",
+      "url": "https://www.barrons.com/articles/stock-market-movers-7bc4016a",
+      "urlToImage": "https://images.barrons.com/im-369103/social",
+      "publishedAt": "2023-06-21T14:16:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "San Francisco Chronicle"
+      },
+      "author": "J.K. Dineen",
+      "title": "Millennium Tower's famous lean has improved with $100 million repair - San Francisco Chronicle",
+      "description": "An engineer says that the sinking and leaning Millennium Tower in San Francisco has improved thanks to a $100 million fix.",
+      "url": "https://www.sfchronicle.com/sf/article/millennium-tower-lean-repair-18162030.php",
+      "urlToImage": "https://s.hdnux.com/photos/01/33/31/06/23957936/3/rawImage.jpg",
+      "publishedAt": "2023-06-21T14:03:12Z",
+      "content": "All 18 of the concrete piles meant to stabilize San Franciscos famously leaning and sinking Millennium Tower have now been driven into bedrock, completing the $100 million fix of the luxury condo hig… [+2962 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Barron's"
+      },
+      "author": "Adam Clark",
+      "title": "Coinbase and Crypto Stocks Rise. Wall Street Competition Is Welcome for Now. - Barron's",
+      "description": "Coinbase and other crypto stocks rise as the launch of a new exchange boosts the price of Bitcoin and other cryptocurrencies.",
+      "url": "https://www.barrons.com/articles/coinbase-crypto-stocks-bitcoin-edx-969e7571",
+      "urlToImage": "https://images.barrons.com/im-722179/social",
+      "publishedAt": "2023-06-21T13:21:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Barron's"
+      },
+      "author": "Brian Swint",
+      "title": "Amazon's Stock Price Target Is Lifted on Expected AI-Driven Gains - Barron's",
+      "description": "Analysts at Jefferies raise their price target on shares of Amazon to $150 from $135.",
+      "url": "https://www.barrons.com/articles/amazon-stock-price-target-ai-8e472e07",
+      "urlToImage": "https://images.barrons.com/im-803063/social",
+      "publishedAt": "2023-06-21T13:16:00Z",
+      "content": "Amazon\r\ns price target was raised by analysts at Jefferies, who see the tech giant and online retailer benefiting from the growing adoption of artificial intelligence.Even though shares of \r\nAmazon\r\n… [+1234 chars]"
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": null,
+      "title": "UK's stubborn inflation fails to fall, turning up heat on BoE - Reuters UK",
+      "description": "British inflation defied predictions of a slowdown and held at 8.7% in May, putting yet more pressure on the Bank of England a day before it is expected to raise interest rates for the 13th time in a row.",
+      "url": "https://www.reuters.com/world/uk/uk-inflation-rate-unchanged-87-may-contrary-forecast-fall-2023-06-21/",
+      "urlToImage": "https://www.reuters.com/resizer/qlfXys0q0DIeMH1wSE7EpFSh44s=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/YC7DC4GAWBJVJFHK2A3EZOXRPE.jpg",
+      "publishedAt": "2023-06-21T13:13:00Z",
+      "content": "LONDON, June 21 (Reuters) - British inflation defied predictions of a slowdown and held at 8.7% in May, putting yet more pressure on the Bank of England a day before it is expected to raise interest … [+5346 chars]"
+    },
+    {
+      "source": {
+        "id": "bloomberg",
+        "name": "Bloomberg"
+      },
+      "author": "Jennifer A Dlouhy, Kim Chipman",
+      "title": "Biden Biodiesel Quotas Deal Blow to Plant-Based Fuel Makers - Bloomberg",
+      "description": "The Biden administration dealt a blow to makers of bio and renewable diesel by setting federal quotas for the plant-based fuel that advocates say ignore a surge in production and a wave of investment in new manufacturing facilities.",
+      "url": "https://www.bloomberg.com/news/articles/2023-06-21/biden-biodiesel-quotas-deal-blow-to-plant-based-fuel-makers",
+      "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ir3dIAgVdO9A/v0/1200x798.jpg",
+      "publishedAt": "2023-06-21T13:00:00Z",
+      "content": "The Biden administration dealt a blow to makers of bio and renewable diesel by setting federal quotas for the plant-based fuel that advocates say ignore a surge in production and a wave of investment… [+399 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "YouTube"
+      },
+      "author": null,
+      "title": "Market's overbought, but this year will be very good for investors: Sanctuary Wealth's Bartels - CNBC Television",
+      "description": "Mary Ann Bartels, chief investment strategist at Sanctuary Wealth, joins 'Squawk Box' to discuss her vantage point on equity markets, why FedEx's quarterly e...",
+      "url": "https://www.youtube.com/watch?v=IH8W7sVihCU",
+      "urlToImage": "https://i.ytimg.com/vi/IH8W7sVihCU/maxresdefault.jpg",
+      "publishedAt": "2023-06-21T12:38:39Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Fox Business"
+      },
+      "author": "Nora Colomer",
+      "title": "Used car prices soar as demand for limited inventory grows, report says - Fox Business",
+      "description": "Used car prices have softened recently but remain significantly higher than before the COVID-19 pandemic, according to a recent Edmunds report.",
+      "url": "https://www.foxbusiness.com/personal-finance/used-car-values-soar-demand-grows",
+      "urlToImage": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2023/05/0/0/Credible-Used-Cars-iStock-1387069615.png?ve=1&tl=1",
+      "publishedAt": "2023-06-21T12:36:25Z",
+      "content": "Growing demand and the lack of supply have driven prices for used cars up with little relief in sight, according to a recent report.\r\nUsed car prices have softened recently but remain significantly h… [+4806 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Chess.com"
+      },
+      "author": "Chess.com Team",
+      "title": "It's TIME To Acknowledge Chess: Chess.com Named In Prestigious 100 Most Influential Companies List - Chess.com",
+      "description": "Who would have seen this coming before 2020, The Queen’s Gambit, and the rise of chess as an esport? Chess.com, the world’s leading chess platform, has been named in TIME’s prestigious 100 Most Influential Companies of 2023 list. The site, founded in 2005 by …",
+      "url": "https://www.chess.com/news/view/chesscom-among-100-most-influential-companies-2023",
+      "urlToImage": "https://images.chesscomfiles.com/uploads/v1/news/1242583.ff4b5400.5000x5000o.3164a773d6b5.png",
+      "publishedAt": "2023-06-21T12:20:00Z",
+      "content": "Who would have seen this coming before 2020, The Queen’s Gambit, and the rise of chess as an esport? Chess.com, the world’s leading chess platform, has been named in TIME’s prestigious 100 Most Influ… [+2879 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Kitco NEWS"
+      },
+      "author": "http://www.facebook.com/kitconews",
+      "title": "Mild price pressure on gold ahead of Fed Chair Powell testimony - Kitco NEWS",
+      "description": "Senior Technical Analyst Jim Wyckoff prepares investors with an overview of how the markets opened and closed. What moved metal prices? How do the technicals look? By looking at important developments",
+      "url": "https://www.kitco.com/news/2023-06-21/Mild-price-pressure-on-gold-ahead-of-Fed-Chair-Powell-testimony.html",
+      "urlToImage": "https://www.kitco.com/news/2023-06-21/images/goldchart_0621_am.png",
+      "publishedAt": "2023-06-21T12:06:00Z",
+      "content": "(Kitco News) - Gold and silver prices are slightly lower in early U.S. trading Wednesday. The marketplace is tentative just ahead of the U.S. data point of the week: testimony before Congress from Fe… [+2334 chars]"
     },
     {
       "source": {
         "id": "techcrunch",
         "name": "TechCrunch"
       },
-      "author": "Taylor Hatmaker",
-      "title": "BuzzCutt steers the sober curious toward booze-free bar and restaurant options",
-      "description": "BuzzCutt aims to shepherd non-drinkers, mindful drinkers and the sober-curious toward their best local options.",
-      "url": "https://techcrunch.com/2023/06/16/buzzcutt-app-sober-alcohol-free-local-options/",
-      "urlToImage": "https://techcrunch.com/wp-content/uploads/2023/06/BUZZCUTT-logo.png?resize=1200,300",
-      "publishedAt": "2023-06-16T18:48:49Z",
-      "content": "If you dont drink, navigating nightlife, bars and even eating out can be an exercise in frustration. Non-alcoholic options are popping up everywhere, but for every neighborhood haunt with a booze-fre… [+5569 chars]"
+      "author": "Christine Hall",
+      "title": "BetterBrand’s new dough raises company’s valuation to over $170M - TechCrunch",
+      "description": "In late 2022, BetterBrand found success on Whole Foods Market shelves, driving over $1 million in gross sales in the first five months.",
+      "url": "https://techcrunch.com/2023/06/21/betterbrand-valuation-170m-better-bagel-foodtech/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2023/06/AimeeYang_Headshot2023-1.jpg?resize=1200,675",
+      "publishedAt": "2023-06-21T12:02:05Z",
+      "content": "BetterBrand, a foodtech company known for creating The Better Bagel, closed on $6 million of Series A capital at a pre-money valuation of $170 million.\r\nThe company, citing Crunchbase data, also tout… [+3534 chars]"
     },
     {
       "source": {
-        "id": "techcrunch",
-        "name": "TechCrunch"
+        "id": null,
+        "name": "Barron's"
       },
-      "author": "Walter Thompson",
-      "title": "TechCrunch+ roundup: SaaS valuations up, clean energy tax credits, H-1B transfer options",
-      "description": "Public SaaS companies reaching their highest valuations of 2023 reminds me of an old song: \"I've been down so long, it looks like up to me.\"",
-      "url": "https://techcrunch.com/2023/06/16/techcrunch-roundup-saas-valuations-up-clean-energy-tax-credits-h-1b-transfer-options/",
-      "urlToImage": "https://techcrunch.com/wp-content/uploads/2023/06/GettyImages-1144253655.jpg?resize=1200,801",
-      "publishedAt": "2023-06-16T16:54:38Z",
-      "content": "Can emerging managers do a better job of expanding access to capital than established VC firms?\r\nBecause many funds with less than $50M under management “are led by those from underrepresented backgr… [+3887 chars]"
+      "author": "Al Root",
+      "title": "Tesla Sweeps Top Spots In Cars.com American Made Index. Ford, GM Fall Off. - Barron's",
+      "description": "Cars.com finds that half of customers asked say they are willing to pay more for a car if it creates U.S. jobs.",
+      "url": "https://www.barrons.com/articles/tesla-cars-com-american-made-index-8146d4d1",
+      "urlToImage": "https://images.barrons.com/im-696240/social",
+      "publishedAt": "2023-06-21T12:00:00Z",
+      "content": null
     },
     {
       "source": {
-        "id": "techcrunch",
-        "name": "TechCrunch"
+        "id": null,
+        "name": "SFGate"
       },
-      "author": "Anna Heim and Alex Wilhelm",
-      "title": "Revolut sees its valuation reconsidered as public markets stir the fintech pot",
-      "description": "U.K.-based Revolut saw its valuation being reduced earlier this year, and the company is once again in the headlines for reasons it won’t like.",
-      "url": "https://techcrunch.com/2023/06/16/revolut-sees-its-valuation-reconsidered-as-public-markets-stir-the-fintech-pot/",
-      "urlToImage": "https://techcrunch.com/wp-content/uploads/2023/05/venture-debt-survey.jpg?resize=1200,675",
-      "publishedAt": "2023-06-16T16:45:16Z",
-      "content": "What are neobanks worth? That’s a question on many people’s minds, especially the investors and employees of the richly valued fintechs that have been waiting for IPOs to make a comeback.\r\nOverall, n… [+1613 chars]"
-    },
-    {
-      "source": {
-        "id": "techcrunch",
-        "name": "TechCrunch"
-      },
-      "author": "Alex Wilhelm and Kyle Wiggers",
-      "title": "It's not just hype, corporate America is making huge bets on AI transforming their businesses",
-      "description": "There’s an all-out race to leverage AI to add more utility and value to products, and to reap a portion of the resulting demand in AI-powered products and services.",
-      "url": "https://techcrunch.com/2023/06/16/ai-transformating-corporate-america/",
-      "urlToImage": "https://techcrunch.com/wp-content/uploads/2023/05/GettyImages-1483825958.jpg?resize=1200,800",
-      "publishedAt": "2023-06-16T16:42:53Z",
-      "content": "Hype or not, the potential of AI has tech companies enamored, and businesses large and small have begun betting heavily on efforts that leverage AI in some fashion to spur their growth to new heights… [+2029 chars]"
-    },
-    {
-      "source": {
-        "id": "techcrunch",
-        "name": "TechCrunch"
-      },
-      "author": "Natasha Lomas",
-      "title": "Make way for a new vegan protein on the menu",
-      "description": "Finnish startup Solar Foods' novel alternative protein, Solein, is now on the menu of a restaurant in Singapore where it's been blended into a custom (vegan) chocolate gelato.",
-      "url": "https://techcrunch.com/2023/06/16/solein-chociolate-gelato/",
-      "urlToImage": "https://techcrunch.com/wp-content/uploads/2023/06/Solein_Fico_Kiosk_Chocolate_Gelato3.jpg?resize=900,1200",
-      "publishedAt": "2023-06-16T16:20:29Z",
-      "content": "Fancy some dairy-free protein rich ice cream with a microbial twist? Finnish startup Solar Foods‘ novel alternative protein, Solein, is now on the menu of a restaurant in Singapore where it’s been bl… [+5948 chars]"
-    },
-    {
-      "source": {
-        "id": "techcrunch",
-        "name": "TechCrunch"
-      },
-      "author": "Lauren Forristal",
-      "title": "Ticketmaster, SeatGeek, Live Nation agree to disclose fees upfront (thanks, Biden)",
-      "description": "Ticketmaster, SeatGeek, Live Nation and other companies have agreed to disclose ticket prices upfront, President Joe Biden announced.",
-      "url": "https://techcrunch.com/2023/06/16/ticketmaster-seatgeek-live-nation-agree-to-disclose-fees-up-front/",
-      "urlToImage": "https://techcrunch.com/wp-content/uploads/2018/05/gettyimages-73210343.jpg?resize=1200,800",
-      "publishedAt": "2023-06-16T16:05:26Z",
-      "content": "Ticketmaster, SeatGeek, Live Nation and other companies have agreed to disclose ticket prices upfront, putting an end to the extra fees that consumers cant see until the end of the billing process.\r\n… [+2240 chars]"
-    },
-    {
-      "source": {
-        "id": "techcrunch",
-        "name": "TechCrunch"
-      },
-      "author": "Haje Jan Kamps",
-      "title": "Here’s why it’s scary that investors believe they can monetize the climate crisis",
-      "description": "Welcome to Startups Weekly. Sign up here to get it in your inbox every Friday afternoon. The event horizon for when we can expect to end up in (literal) hot water when it comes to climate has come a lot closer. You wanna know how close? The climate deadline i…",
-      "url": "https://techcrunch.com/2023/06/16/heres-why-its-scary-that-investors-believe-they-can-monetize-the-climate-crisis/",
-      "urlToImage": "https://techcrunch.com/wp-content/uploads/2022/08/climate-change-emoji.jpg?resize=1200,675",
-      "publishedAt": "2023-06-16T16:00:08Z",
-      "content": "Welcome to Startups Weekly. Sign up here to get it in your inbox every Friday afternoon.\r\nThe event horizon for when we can expect to end up in (literal) hot water when it comes to climate has come a… [+5031 chars]"
-    },
-    {
-      "source": {
-        "id": "techcrunch",
-        "name": "TechCrunch"
-      },
-      "author": "Carly Page",
-      "title": "US confirms federal agencies hit by MOVEit breach, as hackers list more victims",
-      "description": "Multiple federal agencies have fallen victim to cyberattacks exploiting a security vulnerability in a popular file transfer tool",
-      "url": "https://techcrunch.com/2023/06/16/us-confirms-federal-agencies-hit-by-moveit-breach-as-hackers-list-more-victims/",
-      "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/03/ransomware-bryce.jpg?resize=1200,799",
-      "publishedAt": "2023-06-16T15:34:52Z",
-      "content": "The U.S. government has confirmed that multiple federal agencies have fallen victim to cyberattacks exploiting a security vulnerability in a popular file transfer tool.\r\nIn a statement shared with Te… [+3363 chars]"
-    },
-    {
-      "source": {
-        "id": "techcrunch",
-        "name": "TechCrunch"
-      },
-      "author": "Dominic-Madori Davis",
-      "title": "Mistral AI's mega fundraise is a red flag for many concerned about inclusivity",
-      "description": "The result of an opaque funding environment is that a lot happens in secrecy. Founders keep their heads down, and people move in silence.",
-      "url": "https://techcrunch.com/2023/06/16/mistral-ai-funding-diversity-problems/",
-      "urlToImage": "https://techcrunch.com/wp-content/uploads/2023/06/GettyImages-926870834.jpg?resize=1200,801",
-      "publishedAt": "2023-06-16T15:30:19Z",
-      "content": "Often, when people ask me how the venture and startup market is doing, I have to take a moment. The easy answer is that were seeing a downturn. The correct answer is more nuanced: There is indeed a d… [+1706 chars]"
+      "author": "Joshua Bote",
+      "title": "These were the best-paying Silicon Valley tech companies in 2022 - SFGATE",
+      "description": "Even with unabated economic headwinds and a stunning number of tech layoffs, tech workers' pay in 2022 remained generous.",
+      "url": "https://www.sfgate.com/tech/article/highest-paying-silicon-valley-companies-2022-18161771.php",
+      "urlToImage": "https://s.hdnux.com/photos/01/33/02/11/23863878/3/rawImage.jpg",
+      "publishedAt": "2023-06-21T11:03:51Z",
+      "content": "Even with unabated economic headwinds and a stunning number of tech layoffs with an estimated 64,865 affected workers in 2023 so far, according to Layoffs.fyi, in addition to the over 47,000 laid off… [+2349 chars]"
     }
   ]
 }

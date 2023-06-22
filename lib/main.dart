@@ -21,6 +21,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: NewsLayout(),
       theme: ThemeData(
+        primarySwatch: Colors.deepOrange,
         appBarTheme: const AppBarTheme(
           titleTextStyle: TextStyle(color: Colors.black , fontSize: 24.0 , fontWeight: FontWeight.bold),
           backgroundColor: Colors.white,
@@ -28,16 +29,14 @@ class MyApp extends StatelessWidget {
           iconTheme: IconThemeData(
             color: Colors.black
           ),
-          backwardsCompatibility: false,
           systemOverlayStyle: SystemUiOverlayStyle(
             statusBarColor: Colors.green,
             statusBarIconBrightness: Brightness.dark
           )
         ),
-        bottomNavigationBarTheme: BottomNavigationBarThemeData(
+        bottomNavigationBarTheme: const BottomNavigationBarThemeData(
           elevation: 20.0 ,
           type: BottomNavigationBarType.fixed,
-          selectedItemColor: Colors.deepOrange,
           backgroundColor: Colors.white,
         )
       ),

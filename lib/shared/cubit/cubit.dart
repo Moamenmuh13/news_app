@@ -33,19 +33,78 @@ class AppCubit extends Cubit<AppState> {
 
   void changeBottomNav(int index) {
     currentIndex = index;
+
+    switch (index) {
+      case 1:
+        {
+          getSportsData();
+        }
+        break;
+      case 2:
+        {
+          getScienceData();
+        }
+        break;
+    }
     emit(AppChangeBottomNavState());
   }
 
   List businessList = [];
+  List sportsList = [];
+  List scienceList = [];
 
   void getBusinessData() {
-    DioHelper.getData(path: 'v2/top-headlines', query: {
-      "apiKey": "5ca9cff249724442bc8509e066d58122",
-    })
-        .then((value) => {
-          businessList = value?.data["business"]})
-        .catchError((error) {
-      print(error);
-    });
+    emit(AppBusinessLoadingState());
+    if (businessList.isEmpty) {
+      DioHelper.getData(path: 'v2/top-headlines', query: {
+        "country": "us",
+        "category": "business",
+        "apiKey": "5ca9cff249724442bc8509e066d58122",
+      }).then((value) {
+        businessList = value?.data['articles'];
+        emit(AppBusinessSuccessState());
+      }).catchError((error) {
+        emit(AppResponseFailedState(error.toString()));
+      });
+    } else {
+      emit(AppBusinessSuccessState());
+    }
+  }
+
+  void getSportsData() {
+    emit(AppSportsLoadingState());
+    if (sportsList.isEmpty) {
+      DioHelper.getData(path: 'v2/top-headlines', query: {
+        "country": "us",
+        "category": "sports",
+        "apiKey": "5ca9cff249724442bc8509e066d58122",
+      }).then((value) {
+        sportsList = value?.data['articles'];
+        emit(AppSportsSuccessState());
+      }).catchError((error) {
+        emit(AppResponseFailedState(error.toString()));
+      });
+    } else {
+      emit(AppSportsSuccessState());
+    }
+  }
+
+  void getScienceData() {
+    emit(AppScienceSuccessState());
+    if(scienceList.isEmpty){
+      DioHelper.getData(path: 'v2/top-headlines', query: {
+        "country": "us",
+        "category": "science",
+        "apiKey": "5ca9cff249724442bc8509e066d58122",
+      }).then((value) {
+        scienceList = value?.data['articles'];
+        emit(AppScienceSuccessState());
+      }).catchError((error) {
+        emit(AppResponseFailedState(error.toString()));
+      });
+    }
+    else{
+      emit(AppScienceSuccessState());
+    }
   }
 }

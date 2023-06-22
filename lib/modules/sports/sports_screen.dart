@@ -1,10 +1,21 @@
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import '../../shared/components/components.dart';
+import '../../shared/cubit/cubit.dart';
+import '../../shared/cubit/states.dart';
 
 class SportsScreen extends StatelessWidget {
   const SportsScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const Center(child: Text("Sports Screen"));
+    return BlocConsumer<AppCubit, AppState>(
+      listener: (context, state) {},
+      builder: (context, state) {
+        var sportsList = AppCubit.get(context).sportsList;
+        return articleBuilder(sportsList);
+      },
+    );
   }
+
 }
